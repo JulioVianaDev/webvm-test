@@ -5,7 +5,7 @@ RUN apt-get update && apt-get -y upgrade && \
 	apt-get install -y apt-utils beef bsdgames bsdmainutils ca-certificates \
 	cowsay cpio cron curl dmidecode dmsetup g++ gcc gdbm-l10n git  \
 	hexedit  ifupdown init logrotate lsb-base lshw lua5.4 luajit lynx make \
-	nano netbase nodejs openssl procps python3  \
+	nano netbase nodejs npm openssl procps python3  \
     readline-common rsyslog ruby sensible-utils \
 	ssh systemd systemd-sysv tasksel tasksel-data udev vim wget whiptail \
 	xxd iptables isc-dhcp-client isc-dhcp-common kmod less netcat-openbsd
